@@ -1,0 +1,105 @@
+.custom-datepicker-input::placeholder {
+    color: black !important;
+   
+  
+    cursor: pointer;
+  }
+  .custom-datepicker-input:hover{
+    background-color: var( --text-yellow);
+    cursor: pointer;
+  }
+
+  .custom-datepicker-input{
+ padding: 0.25rem 0.75rem;
+ color: black;
+ outline: none;
+ width: 16rem;
+  }
+  .custom-time-input{
+ padding: 0.25rem 0.75rem;
+ outline: none;
+ color: black;
+ 
+  }
+  .custom-info-input{
+ padding: 0.5rem 0.75rem;
+ outline: none;
+ color: black;
+ width: 100%;
+ font-family: var(--font-family--heebo);
+  }
+  .custom-info-input::placeholder{
+
+ color: var(--text-gray);
+font-size: 14px;
+ font-family: var(--font-family--heebo);
+
+  }
+
+
+  .custom-selct-input{
+    padding: 0.5rem 0.75rem;
+    outline: none;
+    
+    width: 100%;
+    font-family: var(--font-family--heebo);
+     }
+  .custom-select-input::placeholder{
+
+ color: var(--text-gray);
+font-size: 14px;
+ font-family: var(--font-family--heebo);
+
+  }
+
+  
+    .img {
+        width: 91px;
+        height: 36px;
+        object-fit: cover;
+        object-position: 50% 50%;
+      }
+  
+
+
+      .custom-file-button {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .custom-card-input {
+        font-size: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        cursor: pointer;
+        color: #fff;
+        
+      }
+      
+      .custom-file-span {
+        
+        display: inline-block;
+        padding: 8px 16px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #333;
+        font-family: var(--font-family-lulo);
+        font-size: 15px;
+        cursor: pointer;
+        
+       
+      }
+
+
+      /* @media(max-width:600px){
+.custom-file-span{
+
+}
+
+      } */

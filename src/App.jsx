@@ -1,12 +1,19 @@
 
 import './App.css'
-
+import "./global.css"
+import Home from './pages/Home'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 function App() {
 
 
   return (
     <>
-      <p>Hello</p>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </Router>
+
     </>
   )
 }
